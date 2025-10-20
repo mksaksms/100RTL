@@ -1,0 +1,1 @@
+Source : https://www.controlpaths.com/2025/07/13/generating-true-random-numbers-with-fpga/

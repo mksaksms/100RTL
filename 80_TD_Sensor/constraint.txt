@@ -1,0 +1,14 @@
+# Example: place 8 slices vertically starting at SLICE_X20Y100
+# Adjust X/Y to fit your device.
+
+set_property LOC SLICE_X20Y100 [get_cells tdc_inst/G_CHAIN[0]/u_carry4]
+set_property LOC SLICE_X20Y101 [get_cells tdc_inst/G_CHAIN[1]/u_carry4]
+set_property LOC SLICE_X20Y102 [get_cells tdc_inst/G_CHAIN[2]/u_carry4]
+set_property LOC SLICE_X20Y103 [get_cells tdc_inst/G_CHAIN[3]/u_carry4]
+set_property LOC SLICE_X20Y104 [get_cells tdc_inst/G_CHAIN[4]/u_carry4]
+set_property LOC SLICE_X20Y105 [get_cells tdc_inst/G_CHAIN[5]/u_carry4]
+set_property LOC SLICE_X20Y106 [get_cells tdc_inst/G_CHAIN[6]/u_carry4]
+set_property LOC SLICE_X20Y107 [get_cells tdc_inst/G_CHAIN[7]/u_carry4]
+
+# Optional: keep them together
+set_property RLOC_ORIGIN X0Y0 [get_cells tdc_inst]

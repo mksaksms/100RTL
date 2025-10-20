@@ -1,0 +1,8 @@
+module twos_complement #(parameter WIDTH = 8) (
+  input  logic [WIDTH-1:0] binary_in,
+  output logic [WIDTH-1:0] twos_out
+);
+
+  assign twos_out = ~binary_in + 1;
+
+endmodule
